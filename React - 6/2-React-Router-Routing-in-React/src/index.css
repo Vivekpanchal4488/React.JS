@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+nav{
+  display: flex;
+  gap: 80px;
+  background: black;
+  color: white;
+}
+
+a li{
+  color: white;
+}
+
+li{
+  list-style: none;
+  padding: 23px;
+}
+
+.red{
+  background-color: red;
+  color: white;
+}
+
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.navv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  color: black;
+  font-size: 20px;
+}
+
+.navv div{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: black;
+}
